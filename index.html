@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Network - Protect Earth</title>
+    <title>康康大事业 - Protect Earth</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -488,19 +488,18 @@
             }
         }
 
-        /* Animation for stats counter */
         .counter {
             transition: all 0.5s ease;
         }
     </style>
 </head>
 <body>
-    <!-- Header -->
+
     <header>
         <div class="container nav-container">
             <div class="logo">
                 <i class="fas fa-seedling"></i>
-                <span>Green Network</span>
+                <span>康康大事业</span>
             </div>
             <nav>
                 <div class="mobile-menu">
@@ -517,7 +516,6 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="container hero-content">
             <h1>Protect Our Planet, Preserve Our Future</h1>
@@ -526,11 +524,10 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about">
         <div class="container">
             <div class="section-title">
-                <h2>About Green Network</h2>
+                <h2>About 康康大事业</h2>
                 <p>We are a global community dedicated to environmental protection and sustainable development.</p>
             </div>
             <div class="about-content">
@@ -539,12 +536,13 @@
                 </div>
                 <div class="about-text">
                     <h3>Our Mission</h3>
-                    <p>Green Network is committed to creating a sustainable future by protecting natural ecosystems, promoting renewable energy, and empowering communities to take environmental action.</p>
+                    <p>康康大事业 is committed to creating a sustainable future by protecting natural ecosystems, promoting renewable energy, and empowering communities to take environmental action.</p>
                     <p>Founded in 2010, we've grown from a small grassroots organization to an international network with over 50,000 members across 120 countries.</p>
                     <p>Our approach combines scientific research, community engagement, and policy advocacy to address the most pressing environmental challenges of our time.</p>
                     <a href="#" class="btn">Learn More</a>
                 </div>
             </div>
+
             <div class="stats">
                 <div class="stat-item">
                     <i class="fas fa-tree"></i>
@@ -570,7 +568,6 @@
         </div>
     </section>
 
-    <!-- Initiatives Section -->
     <section class="initiatives" id="initiatives">
         <div class="container">
             <div class="section-title">
@@ -612,7 +609,6 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
     <section class="cta" id="get-involved">
         <div class="container">
             <h2>Join Our Global Movement</h2>
@@ -621,12 +617,11 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer id="contact">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>Green Network</h3>
+                    <h3>康康大事业</h3>
                     <p>We are dedicated to protecting our planet through collaborative action, education, and sustainable solutions.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -635,6 +630,7 @@
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
+
                 <div class="footer-column">
                     <h3>Quick Links</h3>
                     <ul class="footer-links">
@@ -645,6 +641,7 @@
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
+
                 <div class="footer-column">
                     <h3>Our Programs</h3>
                     <ul class="footer-links">
@@ -655,6 +652,7 @@
                         <li><a href="#">Sustainable Agriculture</a></li>
                     </ul>
                 </div>
+
                 <div class="footer-column">
                     <h3>Contact Us</h3>
                     <p><i class="fas fa-map-marker-alt"></i> Copper Creek Drive, New York</p>
@@ -662,22 +660,21 @@
                     <p><i class="fas fa-envelope"></i> support@greennetwork.org</p>
                 </div>
             </div>
+
             <div class="copyright">
-                <p>&copy; 2025 Green Network. All rights reserved.</p>
+                <p>&copy; 2025 康康大事业. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // Mobile Menu Toggle
         document.querySelector('.mobile-menu').addEventListener('click', function() {
             document.querySelector('nav ul').classList.toggle('active');
         });
 
-        // Counter Animation
         function animateCounters() {
             const counters = document.querySelectorAll('.counter');
-            const speed = 200; // The lower the slower
+            const speed = 200;
             
             counters.forEach(counter => {
                 const target = +counter.getAttribute('data-target');
@@ -694,10 +691,8 @@
             });
         }
 
-        // Initialize counters when page loads
         window.addEventListener('load', animateCounters);
 
-        // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -717,6 +712,6 @@
             });
         });
     </script>
-</body>
 
+</body>
 </html>
